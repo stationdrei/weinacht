@@ -11,22 +11,26 @@
     <view fovmode="0" pannorth="0">
       <start tilt="0" projection="4" pan="0" fov="70"/>
       <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" scaletofit="1" pan="360" fov="122" fovfisheye="360" fovstereographic="270"/>
+      <min tilt="-59.04" fovpixel="2" pan="-108.06"/>
+      <max tilt="47.94" scaletofit="1" pan="88.92" fov="122" fovfisheye="360" fovstereographic="270"/>
     </view>
     <userdata longitude="" customnodeid="" title="" datetime="11/19/2020 4:51 PM" source="" latitude="" heading="0" nodeid="node2" description="" info="" author="" copyright="" comment="" tags="Downloads"/>
     <hotspots wordwrap="1" width="180" height="20">
       <label backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" bordercolor="0x000000" textcolor="0x000000" border="1" borderradius="1" width="180" background="1" borderalpha="1" enabled="1" textalpha="1" height="20"/>
       <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1" borderalpha="1"/>
+      <hotspot url="media/wnacht.mp4" tilt="3.56" title="" pan="-329.02" description="" target="" skinid="ht_video_file" id="Point01"/>
     </hotspots>
     <media>
-      <video startmutedmobile="1" field="90.000" width="1312" handcursor="0" tiltsize="10.000" rotz="0.000" tilt="0.000" loop="0" pan="34.000" id="Element01" mode="1" stretch="1.000" rotx="0.000" clickmode="0" roty="0.000" ambientlevel="0.000" pansize="10.000" level="1.000" fov="37.870" nodechangekeep="0" height="2192">
-        <source url="media/20201119_Station3_X_Mas_12k_patch.mp4"/>
+      <video startmutedmobile="1" field="90.000" width="1312" handcursor="0" tiltsize="10.000" rotz="0.000" tilt="0.000" loop="0" pan="34.000" id="Element01" mode="1" stretch="1.000" rotx="0.000" clickmode="0" roty="0.000" ambientlevel="0.000" poster="media/fire_preview.jpg" pansize="10.000" level="1.000" fov="37.870" nodechangekeep="0" height="2192">
+        <source url="media/fire.mp4"/>
+      </video>
+      <video startmutedmobile="1" field="90.000" width="1744" handcursor="0" tiltsize="10.000" rotz="0.000" tilt="12.840" loop="0" pan="298.550" id="Element02" mode="1" stretch="1.000" rotx="0.000" clickmode="0" roty="0.000" ambientlevel="0.000" pansize="10.000" level="1.000" fov="48.820" nodechangekeep="0" height="1744">
+        <source url="media/window.mp4"/>
       </video>
     </media>
     <transition zoomafteroutfov="20" zoomin="0" type="crossdissolve" zoomoutpause="1" zoomout="0" blendcolor="0x000000" zoomfov="20" blendtime="1" zoomspeed="2" zoomafterinfov="90" enabled="1" softedge="0"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextprojections="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" speedwheel="1"/>
+    <control contextprojections="0" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="1" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" speedwheel="1"/>
   </panorama>
   <masternode>
     <userdata longitude="" customnodeid="" title="" datetime="" source="" latitude="" heading="0" nodeid="master" description="" info="" author="" copyright="" comment="" tags=""/>

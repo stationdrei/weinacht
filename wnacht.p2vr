@@ -19,6 +19,20 @@
             <blurintensity>10</blurintensity>
             <lastmodified>2020-11-19T17:34:18</lastmodified>
           </imagepatch>
+          <imagepatch>
+            <pan>298.55</pan>
+            <tilt>12.84</tilt>
+            <fov>48.82</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>0</locked>
+            <quality>90</quality>
+            <filename>patches/20201119_Station3_X_Mas_12k_patch_1.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2020-11-19T18:06:14</lastmodified>
+          </imagepatch>
         </patch>
         <type>equirectangular</type>
         <filename>C:/Users/novoselov/Downloads/20201119_Station3_X_Mas_12k.png</filename>
@@ -29,13 +43,13 @@
       <viewingparameter>
         <pan>
           <start>0</start>
-          <min>0</min>
-          <max>360</max>
+          <min>-108.06</min>
+          <max>88.92</max>
         </pan>
         <tilt>
           <start>0</start>
-          <min>-90</min>
-          <max>90</max>
+          <min>-59.04</min>
+          <max>47.94</max>
         </tilt>
         <fov>
           <start>70</start>
@@ -61,7 +75,32 @@
         <tags>Downloads</tags>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-329.02</pan>
+            <tilt>3.56</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>video</linktype>
+          <linksubtype>videofile</linksubtype>
+          <url>mp4/wnacht.mp4</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -82,7 +121,39 @@
           </videorect>
           <type>video</type>
           <id>Element01</id>
-          <filename>../Documents/st3github/weinacht/mp4/20201119_Station3_X_Mas_12k_patch.mp4</filename>
+          <filename>mp4/fire.mp4</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>0</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+          <previewfile>mp4/fire_preview.jpg</previewfile>
+        </sound>
+        <sound>
+          <position>
+            <pan>298.55</pan>
+            <tilt>12.84</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>48.82</fov>
+            <stretch>100</stretch>
+            <dimx>1744</dimx>
+            <dimy>1744</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element02</id>
+          <filename>mp4/window.mp4</filename>
           <mode>1</mode>
           <nodechangekeep>0</nodechangekeep>
           <locked>1</locked>
@@ -120,7 +191,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>output/index.html</filename>
+          <filename>index.html</filename>
           <values>
             <value id="css"></value>
             <value id="gginfo">false</value>
@@ -141,8 +212,9 @@
         <hotspotstyle/>
         <webvr/>
         <tilesize>3000</tilesize>
-        <filename>output/pano.xml</filename>
-        <skinfile>cardboard.ggsk</skinfile>
+        <filename>pano.xml</filename>
+        <skinfile>simplex_v6.ggsk</skinfile>
+        <rubberband>1</rubberband>
       </htmlcss>
     </output>
     <streetview/>
