@@ -1,0 +1,8 @@
+  11/19/2020 6:02:52 PM: Starting composition “20201119_Station3_X_Mas_12k_patch”.
+
+  Output To: C:\Users\novoselov\Documents\st3github\weinacht\mp4\20201119_Station3_X_Mas_12k_patch.mp4    11/19/2020 6:03:09 PM: Finished composition “20201119_Station3_X_Mas_12k_patch”.
+
+
+  Total Time Elapsed: 16 Seconds
+Log closed on 11/19/2020 at 6:03:09 PM
+
