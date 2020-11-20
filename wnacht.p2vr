@@ -196,34 +196,6 @@
       <id>node2</id>
     </panorama>
     <start>node2</start>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>C:/Users/novoselov/Desktop/test.tif</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2020-11-20T09:43:55</capturedatetime>
-        <tags>Desktop</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node3</id>
-    </panorama>
   </tour>
   <panorama>
     <id>master</id>
