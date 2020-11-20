@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node3" appversion="6.1.10" apprev="18007">
-  <panorama id="node3">
-    <input levelbiashidpi="1.000" levelbias="0.400" width="2048" leveltilesize="510" height="2048" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0">
+<tour start="node4" appversion="6.1.10" apprev="18007">
+  <panorama id="node4">
+    <input levelbiashidpi="1.000" levelbias="0.400" width="2048" leveltilesize="510" height="2048" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0">
       <level predecode="0" width="2048" height="2048" preload="0"/>
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
@@ -9,17 +9,15 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="-2.6" fov="52" projection="4" pan="14.03"/>
+      <start tilt="0" fov="62" projection="4" pan="10.04"/>
       <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" pan="-135.82" fovpixel="2"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="75.02" fovstereographic="270" scaletofit="1"/>
+      <min tilt="-90" pan="-110.29" fovpixel="2"/>
+      <max tilt="90" fov="120" fovfisheye="360" pan="72.8" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata source="" tags="Winter" comment="" description="" author="" info="" latitude="" nodeid="node3" copyright="" title="" longitude="" customnodeid="" datetime="11/20/2020 3:39 PM" heading="0"/>
+    <userdata source="" tags="Winter" comment="" description="" author="" info="" latitude="" nodeid="node4" copyright="" title="" longitude="" customnodeid="" datetime="11/20/2020 3:39 PM" heading="0"/>
     <hotspots wordwrap="1" width="180" height="20">
       <label textalpha="1" borderalpha="1" borderradius="1" background="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" border="1" width="180" bordercolor="0x000000" enabled="1" height="20"/>
       <polystyle borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" bordercolor="0x0000ff"/>
-      <hotspot description="" tilt="-15.09" skinid="ht_url" title="" target="_blank" id="Point01" pan="-304.97" url="pdf/weihnachtsbriefst3.pdf"/>
-      <hotspot description="" tilt="-5.58" skinid="ht_video_file" title="" target="" id="Point02" pan="-351.7" url="media/wnacht.mp4"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" zoomfov="20" zoomin="0" zoomout="0" type="crossdissolve" blendtime="1" enabled="1" blendcolor="0x000000" zoomafterinfov="90" zoomspeed="2" zoomafteroutfov="20"/>
