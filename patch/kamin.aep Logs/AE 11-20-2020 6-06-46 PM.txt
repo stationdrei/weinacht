@@ -1,0 +1,8 @@
+  11/20/2020 6:06:46 PM: Starting composition “scaled_patch-01”.
+
+  Output To: C:\Users\novoselov\Desktop\MOPV\scaled_patch-01.mov    11/20/2020 6:07:11 PM: Finished composition “scaled_patch-01”.
+
+
+  Total Time Elapsed: 25 Seconds
+Log closed on 11/20/2020 at 6:07:11 PM
+
