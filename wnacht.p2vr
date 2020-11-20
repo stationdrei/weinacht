@@ -126,6 +126,31 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-85.56</pan>
+            <tilt>-15.22</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>https://www.instagram.com/station3.de/</url>
+          <target>_blank</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -194,6 +219,68 @@
           <clickmode>none</clickmode>
           <handcursor>0</handcursor>
         </sound>
+        <sound>
+          <position>
+            <pan>-77.88</pan>
+            <tilt>0</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>33</fov>
+            <stretch>100</stretch>
+            <dimx>784</dimx>
+            <dimy>1104</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element03</id>
+          <filename>patches/scaled_patch_1a (00000).png</filename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>12</pan>
+            <tilt>0</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>32</fov>
+            <stretch>100</stretch>
+            <dimx>752</dimx>
+            <dimy>1248</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element04</id>
+          <filename>patches/scaled_patch-01 (00000).png</filename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
       </sounds>
       <id>node4</id>
     </panorama>
@@ -235,15 +322,17 @@
         <flyintransition/>
         <hotspottext/>
         <hotspotstyle/>
-        <webvr/>
+        <webvr>
+          <enabled>0</enabled>
+        </webvr>
         <tilesize>3000</tilesize>
         <filename>pano.xml</filename>
         <skinfile>simplex_v6.ggsk</skinfile>
-        <rubberband>1</rubberband>
+        <rubberband>0</rubberband>
         <skinconfiguration>
           <value id="opt_autorotate">false</value>
-          <value id="opt_gyro">false</value>
           <value id="opt_projection">false</value>
+          <value id="opt_thumbnail">false</value>
         </skinconfiguration>
         <skintablesconfiguration/>
         <skincolorsconfiguration>

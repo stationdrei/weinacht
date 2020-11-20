@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node4" appversion="6.1.10" apprev="18007">
+<tour start="node4" apprev="18007" appversion="6.1.10">
   <panorama id="node4">
-    <input levelbiashidpi="1.000" levelbias="0.400" width="2048" leveltilesize="510" height="2048" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelingpitch="0">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
+    <input leveltilesize="510" levelbiashidpi="1.000" height="2048" levelingroll="0" levelingpitch="0" width="2048" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="62" projection="4" pan="10.04"/>
-      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-      <min tilt="-90" pan="-113.97" fovpixel="1"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="83.55" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="10.04" tilt="0" fov="62" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="-113.97" tilt="-90" fovpixel="1"/>
+      <max fovfisheye="360" pan="83.55" tilt="90" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata source="" tags="Winter" comment="" description="" author="" info="" latitude="" nodeid="node4" copyright="" title="" longitude="" customnodeid="" datetime="11/20/2020 3:39 PM" heading="0"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" borderalpha="1" borderradius="1" background="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" border="1" width="180" bordercolor="0x000000" enabled="1" height="20"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" bordercolor="0x0000ff"/>
-      <hotspot description="" tilt="-6.57" skinid="ht_video_file" title="" target="" id="Point01" pan="-352.98" url="media/wnacht.mp4"/>
-      <hotspot description="" tilt="-15.24" skinid="ht_url" title="" target="_blank" id="Point02" pan="-313.97" url="pdf/weihnachtsbriefst3.pdf"/>
+    <userdata description="" title="" tags="Winter" latitude="" longitude="" nodeid="node4" customnodeid="" info="" comment="" author="" copyright="" datetime="11/20/2020 3:39 PM" heading="0" source=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label wordwrap="1" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" background="1" backgroundalpha="1" width="180" borderalpha="1" textcolor="0x000000" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot description="" title="" pan="-352.98" tilt="-6.57" url="media/wnacht.mp4" target="" id="Point01" skinid="ht_video_file"/>
+      <hotspot description="" title="" pan="-313.97" tilt="-15.24" url="pdf/weihnachtsbriefst3.pdf" target="_blank" id="Point02" skinid="ht_url"/>
+      <hotspot description="" title="" pan="-85.56" tilt="-15.22" url="https://www.instagram.com/station3.de/" target="_blank" id="Point03" skinid="ht_url"/>
     </hotspots>
     <media>
-      <video rotz="0.000" height="1248" field="90.000" nodechangekeep="0" width="752" rotx="0.000" startmutedmobile="1" tilt="0.000" ambientlevel="0.000" clickmode="0" mode="1" handcursor="0" id="Element01" pan="12.000" level="1.000" fov="32.000" loop="0" tiltsize="10.000" poster="media/scaled_patch-01_preview.jpg" roty="0.000" pansize="10.000" stretch="1.000">
+      <video width="752" level="1.000" tilt="0.000" ambientlevel="0.000" clickmode="0" fov="32.000" handcursor="0" stretch="1.000" id="Element01" loop="0" roty="0.000" rotz="0.000" tiltsize="10.000" mode="1" field="90.000" rotx="0.000" nodechangekeep="0" pan="12.000" height="1248" pansize="10.000" startmutedmobile="1" poster="media/scaled_patch-01_preview.jpg">
         <source url="media/scaled_patch-01.mp4"/>
       </video>
-      <video rotz="0.000" height="1104" field="90.000" nodechangekeep="0" width="784" rotx="0.000" startmutedmobile="1" tilt="0.000" ambientlevel="0.000" clickmode="0" mode="1" handcursor="0" id="Element02" pan="-77.880" level="1.000" fov="33.000" loop="0" tiltsize="10.000" roty="0.000" pansize="10.000" stretch="1.000">
+      <video width="784" level="1.000" tilt="0.000" ambientlevel="0.000" clickmode="0" fov="33.000" handcursor="0" stretch="1.000" id="Element02" loop="0" roty="0.000" rotz="0.000" tiltsize="10.000" mode="1" field="90.000" rotx="0.000" nodechangekeep="0" pan="-77.880" height="1104" pansize="10.000" startmutedmobile="1">
         <source url="media/scaled_patch_1a.mp4"/>
       </video>
+      <image clickmode="0" rotx="0.000" pan="-77.880" tilt="0.000" rotz="0.000" height="1104" stretch="1.000" id="Element03" roty="0.000" fov="33.000" width="784" handcursor="0">
+        <source url="media/scaled_patch_1a (00000).png"/>
+      </image>
+      <image clickmode="0" rotx="0.000" pan="12.000" tilt="0.000" rotz="0.000" height="1248" stretch="1.000" id="Element04" roty="0.000" fov="32.000" width="752" handcursor="0">
+        <source url="media/scaled_patch-01 (00000).png"/>
+      </image>
     </media>
-    <transition zoomoutpause="1" softedge="0" zoomfov="20" zoomin="0" zoomout="0" type="crossdissolve" blendtime="1" enabled="1" blendcolor="0x000000" zoomafterinfov="90" zoomspeed="2" zoomafteroutfov="20"/>
+    <transition type="crossdissolve" blendcolor="0x000000" softedge="0" zoomfov="20" zoomafteroutfov="20" zoomout="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedkeyboardzoom="0" dblclickfullscreen="0" invertwheel="0" lockedkeyboard="0" contextprojections="0" hideabout="0" lockedmouse="0" speedwheel="1" invertcontrol="1" contextfullscreen="1" lockedwheel="0" sensitivity="8" rubberband="1"/>
+    <control contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" rubberband="0" lockedmouse="0" simulatemass="1" lockedwheel="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata source="" tags="" comment="" description="" author="" info="" latitude="" nodeid="master" copyright="" title="" longitude="" customnodeid="" datetime="" heading="0"/>
+    <userdata description="" title="" tags="" latitude="" longitude="" nodeid="master" customnodeid="" info="" comment="" author="" copyright="" datetime="" heading="0" source=""/>
   </masternode>
 </tour>

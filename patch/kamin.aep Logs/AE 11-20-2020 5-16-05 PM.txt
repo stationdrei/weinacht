@@ -1,0 +1,8 @@
+  11/20/2020 5:16:05 PM: Starting composition “scaled_patch_1a”.
+
+  Output To: C:\Users\novoselov\Documents\st3github\weinacht\patches\REPLACE1.psd    11/20/2020 5:16:05 PM: Finished composition “scaled_patch_1a”.
+
+
+  Total Time Elapsed: 0 Seconds
+Log closed on 11/20/2020 at 5:16:05 PM
+

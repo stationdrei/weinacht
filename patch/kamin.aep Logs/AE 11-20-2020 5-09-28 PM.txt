@@ -1,0 +1,17 @@
+Adobe After Effects v17.5 Windows 64 render log for project “kamin.aep”
+
+Rendering started on 11/20/2020 at 5:09:28 PM
+
+  11/20/2020 5:09:28 PM: Starting composition “scaled_patch_1a”.
+
+  Output To: C:\Users\novoselov\Desktop\MOPV\scaled_patch_1a.mov    11/20/2020 5:09:34 PM: Finished composition “scaled_patch_1a”.
+
+
+  11/20/2020 5:09:34 PM: Starting composition “scaled_patch-01”.
+
+  Output To: C:\Users\novoselov\Desktop\MOPV\scaled_patch-01.mov    11/20/2020 5:10:01 PM: Finished composition “scaled_patch-01”.
+
+
+  Total Time Elapsed: 33 Seconds
+Log closed on 11/20/2020 at 5:10:01 PM
+
