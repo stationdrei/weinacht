@@ -2,243 +2,21 @@
 <!-- Pano2VR project file  -->
 <pano2vrconfig version="6.1.10" rev="18007">
   <tour>
+    <start>node4</start>
     <panorama>
       <input>
-        <patch>
-          <imagepatch>
-            <pan>34</pan>
-            <tilt>0</tilt>
-            <fov>37.87</fov>
-            <roll>0</roll>
-            <aspectratio>0.6</aspectratio>
-            <applyafterlevelling>0</applyafterlevelling>
-            <locked>1</locked>
-            <quality>90</quality>
-            <filename>patches/20201119_Station3_X_Mas_12k_patch.psd</filename>
-            <type>image</type>
-            <blurintensity>10</blurintensity>
-            <lastmodified>2020-11-19T17:34:18</lastmodified>
-          </imagepatch>
-          <imagepatch>
-            <pan>298.55</pan>
-            <tilt>12.84</tilt>
-            <fov>48.82</fov>
-            <roll>0</roll>
-            <aspectratio>1</aspectratio>
-            <applyafterlevelling>0</applyafterlevelling>
-            <locked>0</locked>
-            <quality>90</quality>
-            <filename>patches/20201119_Station3_X_Mas_12k_patch_1.psd</filename>
-            <type>image</type>
-            <blurintensity>10</blurintensity>
-            <lastmodified>2020-11-19T18:06:14</lastmodified>
-          </imagepatch>
-        </patch>
-        <type>equirectangular</type>
-        <filename>C:/Users/novoselov/Downloads/20201119_Station3_X_Mas_12k.png</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>0</start>
-          <min>-108.06</min>
-          <max>88.92</max>
-        </pan>
-        <tilt>
-          <start>0</start>
-          <min>-59.04</min>
-          <max>47.94</max>
-        </tilt>
-        <fov>
-          <start>70</start>
-          <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
-          <max>122</max>
-          <maxfovstereographic>270</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>-90</tilt>
-          <fov>170</fov>
-        </flyinstart>
-        <pannorth>0</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>stereo</flyinprojection>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2020-11-19T16:51:31+01:00</capturedatetime>
-        <datetime>11/19/2020 4:51 PM</datetime>
-        <tags>Downloads</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position>
-            <pan>-329.02</pan>
-            <tilt>3.56</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <linktype>video</linktype>
-          <linksubtype>videofile</linksubtype>
-          <url>mp4/wnacht.mp4</url>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-290.41</pan>
-            <tilt>-11.11</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <linktype>url</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>pdf/weihnachtsbriefst3.pdf</url>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds>
-        <sound>
-          <position>
-            <pan>34</pan>
-            <tilt>0</tilt>
-          </position>
-          <videorect>
-            <rotx>0</rotx>
-            <roty>0</roty>
-            <rotz>0</rotz>
-            <fov>37.87</fov>
-            <stretch>100</stretch>
-            <dimx>1312</dimx>
-            <dimy>2192</dimy>
-          </videorect>
-          <type>video</type>
-          <id>Element01</id>
-          <filename>mp4/fire.mp4</filename>
-          <mode>1</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>1</startmutedmobile>
-          <level>1</level>
-          <loop>0</loop>
-          <copyfile>1</copyfile>
-          <clickmode>none</clickmode>
-          <handcursor>0</handcursor>
-          <previewfile>mp4/fire_preview.jpg</previewfile>
-        </sound>
-        <sound>
-          <position>
-            <pan>298.55</pan>
-            <tilt>12.84</tilt>
-          </position>
-          <videorect>
-            <rotx>0</rotx>
-            <roty>0</roty>
-            <rotz>0</rotz>
-            <fov>48.82</fov>
-            <stretch>100</stretch>
-            <dimx>1744</dimx>
-            <dimy>1744</dimy>
-          </videorect>
-          <type>video</type>
-          <id>Element02</id>
-          <filename>mp4/window.mp4</filename>
-          <mode>1</mode>
-          <nodechangekeep>0</nodechangekeep>
-          <locked>1</locked>
-          <pansize>10</pansize>
-          <tiltsize>10</tiltsize>
-          <fieldsize>90</fieldsize>
-          <ambientlevel>0</ambientlevel>
-          <startmutedmobile>1</startmutedmobile>
-          <level>1</level>
-          <loop>0</loop>
-          <copyfile>1</copyfile>
-          <clickmode>none</clickmode>
-          <handcursor>0</handcursor>
-        </sound>
-      </sounds>
-      <id>node2</id>
-    </panorama>
-    <start>node2</start>
-    <panorama>
-      <input>
-        <patch>
-          <imagepatch>
-            <pan>14.5</pan>
-            <tilt>0</tilt>
-            <fov>35</fov>
-            <roll>0</roll>
-            <aspectratio>0.6</aspectratio>
-            <applyafterlevelling>0</applyafterlevelling>
-            <locked>1</locked>
-            <quality>90</quality>
-            <filename>patches/8kRender_patch.psd</filename>
-            <type>image</type>
-            <blurintensity>10</blurintensity>
-            <lastmodified>2020-11-20T15:54:35</lastmodified>
-          </imagepatch>
-          <imagepatch>
-            <pan>-93.52</pan>
-            <tilt>0</tilt>
-            <fov>37</fov>
-            <roll>0</roll>
-            <aspectratio>0.7</aspectratio>
-            <applyafterlevelling>0</applyafterlevelling>
-            <locked>1</locked>
-            <quality>90</quality>
-            <filename>patches/8kRender_patch_1.psd</filename>
-            <type>image</type>
-            <blurintensity>10</blurintensity>
-            <lastmodified>2020-11-20T15:56:01</lastmodified>
-          </imagepatch>
-        </patch>
+        <patch/>
         <type>auto</type>
-        <filename>D:/WORK_/Expo/Winter/8kRender.psd</filename>
+        <filename>D:/WORK_/Expo/Winter/scaled.tif</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
-          <min>-135.82</min>
-          <max>94.19</max>
+          <start>10.04</start>
+          <min>-110.29</min>
+          <max>72.8</max>
         </pan>
         <tilt>
           <start>0</start>
@@ -246,7 +24,7 @@
           <max>90</max>
         </tilt>
         <fov>
-          <start>70</start>
+          <start>62</start>
           <minunit>pixels</minunit>
           <minpixels>2</minpixels>
           <max>120</max>
@@ -262,6 +40,7 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2020-11-20T16:27:01</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2020-11-20T15:39:13+01:00</capturedatetime>
@@ -269,38 +48,12 @@
         <tags>Winter</tags>
       </userdata>
       <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position>
-            <pan>-304.97</pan>
-            <tilt>-15.09</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <linktype>url</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>pdf/weihnachtsbriefst3.pdf</url>
-          <target>_blank</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-      </hotspots>
+      <hotspots/>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node3</id>
+      <id>node4</id>
     </panorama>
   </tour>
   <panorama>
