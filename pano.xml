@@ -54,6 +54,30 @@
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextprojections="0" simulatemass="1" speedwheel="1" hideabout="0" dblclickfullscreen="0" rubberband="1" lockedkeyboard="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0"/>
   </panorama>
+  <panorama id="node4">
+    <input height="2048" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" pan="0" fov="70"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata title="" description="" datetime="11/19/2020 8:22 PM" source="" latitude="" info="" longitude="" tags="Desktop" nodeid="node4" author="" heading="0" comment="" customnodeid="" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label border="1" height="20" wordwrap="1" enabled="1" borderradius="1" background="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomafterinfov="90" zoomafteroutfov="20" type="crossdissolve" enabled="1" blendtime="1" blendcolor="0x000000" zoomin="0" softedge="0" zoomoutpause="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextprojections="0" simulatemass="1" speedwheel="1" hideabout="0" dblclickfullscreen="0" rubberband="1" lockedkeyboard="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0"/>
+  </panorama>
   <masternode>
     <userdata title="" description="" datetime="" source="" latitude="" info="" longitude="" tags="" nodeid="master" author="" heading="0" comment="" customnodeid="" copyright=""/>
   </masternode>
