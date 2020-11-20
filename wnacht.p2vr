@@ -5,7 +5,36 @@
     <start>node4</start>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-77.88</pan>
+            <tilt>0</tilt>
+            <fov>33</fov>
+            <roll>0</roll>
+            <aspectratio>0.7</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/scaled_patch_1.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2020-11-20T16:49:23</lastmodified>
+          </imagepatch>
+          <imagepatch>
+            <pan>12</pan>
+            <tilt>0</tilt>
+            <fov>32</fov>
+            <roll>0</roll>
+            <aspectratio>0.6</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/scaled_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2020-11-20T16:32:11</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>D:/WORK_/Expo/Winter/scaled.tif</filename>
         <videotype>equi</videotype>
@@ -15,8 +44,8 @@
       <viewingparameter>
         <pan>
           <start>10.04</start>
-          <min>-110.29</min>
-          <max>72.8</max>
+          <min>-113.97</min>
+          <max>83.55</max>
         </pan>
         <tilt>
           <start>0</start>
@@ -26,7 +55,7 @@
         <fov>
           <start>62</start>
           <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
+          <minpixels>1</minpixels>
           <max>120</max>
           <maxfovstereographic>270</maxfovstereographic>
           <maxfovfisheye>360</maxfovfisheye>
@@ -48,11 +77,124 @@
         <tags>Winter</tags>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-352.98</pan>
+            <tilt>-6.57</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>video</linktype>
+          <linksubtype>videofile</linksubtype>
+          <url>mp4/wnacht.mp4</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-313.97</pan>
+            <tilt>-15.24</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>pdf/weihnachtsbriefst3.pdf</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>12</pan>
+            <tilt>0</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>32</fov>
+            <stretch>100</stretch>
+            <dimx>752</dimx>
+            <dimy>1248</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/novoselov/Desktop/MOPV/scaled_patch-01.mp4</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>0</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+          <previewfile>patches/scaled_patch-01_preview.jpg</previewfile>
+        </sound>
+        <sound>
+          <position>
+            <pan>-77.88</pan>
+            <tilt>0</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>33</fov>
+            <stretch>100</stretch>
+            <dimx>784</dimx>
+            <dimy>1104</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element02</id>
+          <filename>C:/Users/novoselov/Desktop/MOPV/scaled_patch_1a.mp4</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>0</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+      </sounds>
       <id>node4</id>
     </panorama>
   </tour>
